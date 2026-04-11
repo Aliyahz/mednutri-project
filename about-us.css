@@ -1,0 +1,889 @@
+.about-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+}
+.hamburger-menu {
+  display: none; 
+}
+.about-us2,
+.header4 {
+  display: flex;
+  align-items: center;
+}
+.about-us2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.header4 {
+  background-color: var(--color-white);
+  gap: var(--gap-159);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.logo-1-icon4 {
+  width: var(--width-256);
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.menu,
+.menu-item,
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  height: var(--height-42);
+  gap: var(--gap-38);
+}
+.menu,
+.menu-item {
+  gap: var(--gap-40);
+}
+.menu-item {
+  margin: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.trang-ch19,
+.trang-ch20,
+.trang-ch22 {
+  height: var(--height-22);
+  width: var(--width-88);
+}
+.trang-ch19 {
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch20,
+.trang-ch22,
+.trang-ch24 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none; 
+  cursor: pointer;
+  color: inherit;
+}
+.trang-ch22 {
+  width: var(--width-87);
+}
+.trang-ch23 {
+  height: var(--height-22);
+  width: var(--width-119);
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch24 {
+  height: var(--height-22);
+  width: var(--width-114);
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.vector4 {
+  height: var(--height-25);
+  width: var(--width-19_8);
+  position: relative;
+}
+.vector-icon9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.t-vn-ngay-1900-9887-wrapper2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10);
+  background-color: var(--color-olivedrab);
+  border-radius: var(--br-12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-vn-ngay4 {
+  position: relative;
+  font-size: var(--fs-18);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.banner-1-icon {
+  width: 1119.4px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-main,
+.rectangle-group {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.frame-main {
+  width: 1160px;
+  height: 849px;
+  flex-direction: column;
+  padding: var(--padding-12) var(--padding-20);
+  box-sizing: border-box;
+  gap: 75px;
+}
+.rectangle-group {
+  align-self: stretch;
+  height: var(--height-400);
+  gap: var(--gap-80);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-40);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.rectangle-icon {
+  width: 500px;
+  position: relative;
+  border-radius: var(--br-24);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.khi-ngun-t-s-thu-hiu-parent {
+  height: 304px;
+  width: 537px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-20) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-24);
+  max-width: 100%;
+}
+.khi-ngun-t,
+.tui-tc-khng {
+  align-self: stretch;
+  position: relative;
+}
+.khi-ngun-t {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tui-tc-khng {
+  height: 154px;
+  font-size: var(--fs-20);
+  color: var(--color-black);
+  display: inline-block;
+}
+.gi-tr-chng,
+.value-proposition {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.value-proposition {
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-30);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--fs-40);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.gi-tr-chng {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.value-components-parent {
+  align-self: stretch;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-24);
+}
+.value-components,
+.value-details {
+  display: flex;
+  flex-direction: column;
+}
+.value-components {
+  height: 300px;
+  width: var(--width-350);
+  box-shadow: var(--shadow-drop-1);
+  border-radius: var(--br-16);
+  background-color: var(--color-white);
+  align-items: flex-start;
+  padding: 45px var(--padding-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.value-details {
+  width: 344px;
+  height: 210px;
+  align-items: center;
+  gap: var(--gap-35);
+}
+.badge-icons {
+  width: var(--width-60);
+  position: relative;
+  max-height: 100%;
+}
+.cung-cp-cc,
+.s-mnh {
+  align-self: stretch;
+  position: relative;
+}
+.s-mnh {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cung-cp-cc {
+  font-size: var(--fs-16);
+  color: var(--color-black);
+}
+.value-components2 {
+  height: 300px;
+  width: var(--width-350);
+  box-shadow: var(--shadow-drop-1);
+  border-radius: var(--br-16);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 33px 8px var(--padding-32);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.badge-1-parent {
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-35);
+}
+.badge-1-icon {
+  width: var(--width-60);
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.value-components3 {
+  height: 300px;
+  width: var(--width-350);
+  box-shadow: var(--shadow-drop-1);
+  border-radius: var(--br-16);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 33px var(--padding-3) var(--padding-32);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.giving-1-parent {
+  width: 344px;
+  height: 235px;
+  gap: var(--gap-35);
+}
+.footer-content3,
+.footer4,
+.giving-1-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer4 {
+  align-self: stretch;
+  height: var(--height-400);
+  background-color: var(--color-steelblue);
+  padding: var(--padding-80) var(--padding-20);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer-content3 {
+  width: var(--width-1119);
+  height: var(--height-270);
+  gap: var(--gap-45);
+  flex-shrink: 0;
+}
+.contact-details,
+.footer-links3 {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-links3 {
+  align-self: stretch;
+  height: var(--height-203);
+  gap: var(--gap-113);
+}
+.contact-details {
+  width: var(--width-300);
+  flex-direction: column;
+  gap: var(--gap-16);
+  font-size: var(--fs-14);
+}
+.logo-2-icon4 {
+  width: var(--width-241);
+  position: relative;
+  border-radius: var(--br-10);
+  max-height: 100%;
+  object-fit: cover;
+}
+.sn-phm-dinh4 {
+  align-self: stretch;
+  position: relative;
+}
+.khm-ph-container {
+  height: var(--height-162);
+  width: var(--width-187);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.khm-ph4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-18);
+}
+.social-media2 {
+  width: var(--width-106);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-18);
+}
+.social-icons2 {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.vector-icon10 {
+  height: var(--height-24);
+  width: var(--width-14_7);
+  position: relative;
+}
+.group-icon7,
+.group-icon8 {
+  height: var(--height-21_3);
+  width: var(--width-21_3);
+  position: relative;
+}
+.group-icon8 {
+  width: var(--width-26_7);
+}
+.bn-quyn-thuc4,
+.image-1-icon4 {
+  align-self: stretch;
+  position: relative;
+}
+.image-1-icon4 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bn-quyn-thuc4 {
+  font-size: var(--fs-14);
+  text-align: center;
+}
+@media screen and (max-width: 1125px) {
+  .header4 {
+    gap: var(--gap-79);
+    width: var(--width-calc100-40);
+  }
+  .frame-main {
+    height: auto;
+    gap: var(--gap-37);
+  }
+  .rectangle-group {
+    height: auto;
+    gap: var(--gap-40);
+    flex-wrap: wrap;
+  }
+  .khi-ngun-t-s-thu-hiu-parent,
+  .rectangle-icon {
+    flex: 1;
+  }
+  .value-proposition {
+    height: auto;
+  }
+  .value-components-parent {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .footer-content3,
+  .footer4 {
+    height: auto;
+  }
+  .footer-links3 {
+    height: auto;
+    gap: var(--gap-56);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .menu-item {
+    display: none;
+  }
+  .gi-tr-chng,
+  .khi-ngun-t {
+    font-size: var(--fs-32);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* 1. Header dàn đều 2 bên (Đổi class thành .header4) */
+  .header4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 16px 20px; 
+    width: 100%;
+    box-sizing: border-box;
+    position: relative; 
+    z-index: 99999 !important; 
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  }
+
+  /* 2. Logo giữ nguyên */
+  .logo-1-icon {
+    width: 180px; 
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 3. Nút Hamburger giữ nguyên */
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* 4. KHUNG MENU XỔ XUỐNG (.navigation thay cho .frame-parent) */
+  .navigation {
+    display: none; 
+  }
+
+  .navigation.active {
+    display: flex !important; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #ffffff !important; 
+    flex-direction: column;
+    padding: 0 0 24px 0 !important; 
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08); 
+    z-index: 9999 !important; 
+    height: auto !important; 
+    border-top: 1px solid #f4f6f8; 
+  }
+
+  /* 5. DÀN CÁC NÚT (Sửa .frame-group thành .menu, .trang-ch-parent thành .menu-item) */
+  .navigation.active .menu,
+  .navigation.active .menu-item {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    gap: 0; 
+  }
+
+  .navigation.active .menu,
+  .navigation.active .menu-item,
+  .navigation.active .trang-ch19,
+  .navigation.active .trang-ch23,
+  .navigation.active a {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    transform: none !important;
+  }
+
+  /* 6. LÀM ĐẸP CHỮ MENU (.trang-ch19, .trang-ch23) */
+  .navigation.active .trang-ch19,
+  .navigation.active .trang-ch23 {
+    display: block !important;
+    width: 100%;
+  }
+
+  .navigation.active a {
+    display: block;
+    width: 100%;
+    text-align: center; 
+    padding: 18px 20px; 
+    font-size: 15px; 
+    font-weight: 600;
+    color: #154C84 !important; 
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f4f6f8; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+  }
+
+  .navigation.active div:last-child a {
+    border-bottom: none;
+  }
+
+  /* 7. Ẩn icon vector4 */
+  .navigation.active .vector4 {
+    display: none;
+  }
+
+  /* 8. XỬ LÝ NÚT HOTLINE (.t-vn-ngay-1900-9887-wrapper2) */
+  .navigation.active .t-vn-ngay-1900-9887-wrapper2 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    width: calc(100% - 48px) !important; 
+    margin: 16px 24px 0 24px !important; 
+    padding: 14px 0 !important; 
+    box-sizing: border-box !important;
+    transform: none !important;
+    background-color: #7CB749 !important; 
+    border-radius: 8px !important; 
+    border: none !important;
+  }
+
+  .navigation.active .t-vn-ngay4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important; 
+  }
+  /*footer*/
+
+  .footer4 {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 60px 20px 40px 20px !important; 
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background-color: #154C84 !important; /* Kéo nền xanh dương trọn vẹn */
+    
+    height: auto !important;
+    position: relative !important;
+  }
+
+  /* 2. Khung chứa nội dung */
+  .footer-content3,
+  .footer-links3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 40px !important;
+    
+    height: auto !important;
+    position: relative !important;
+  }
+
+  /* 3. Các cột nội dung nhỏ (Liên hệ, Khám phá, Hỗ trợ, Kết nối) */
+  .contact-details,
+  .khm-ph-container,
+  .social-media2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important; 
+    gap: 16px !important; 
+    width: 100% !important;
+    
+    /* Phá khóa tọa độ PC */
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+  }
+
+  /* 4. Reset chữ bên trong Footer để không bị tràn ngang */
+  .sn-phm-dinh4, .khm-ph4 {
+    position: relative !important;
+    height: auto !important;
+    white-space: normal !important; /* Cho phép chữ dài rớt xuống dòng */
+    text-align: center !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+  }
+
+  /* 5. Chỉnh Logo Medinutri */
+  .logo-2-icon4 {
+    width: 200px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* 6. Nhóm Icon Mạng xã hội */
+  .social-icons2 {
+    display: flex !important;
+    flex-direction: row !important; /* Cho 3 icon xếp ngang */
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  /* 7. Logo Bộ Công Thương (BCT) */
+  .image-1-icon4 {
+    width: 120px !important;
+    height: auto !important;
+    margin-top: 10px !important;
+  }
+
+  /* 8. GIẢI CỨU DÒNG COPYRIGHT CUỐI CÙNG */
+  .bn-quyn-thuc4 {
+    display: block !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    margin: 20px 0 0 0 !important;
+    padding: 20px 0 0 0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important; /* Vạch mờ ở trên */
+    width: 100% !important;
+    
+    /* Vắc-xin hạng nặng */
+    height: auto !important;
+    position: relative !important; 
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    white-space: normal !important; /* Ép buộc rớt dòng */
+    word-wrap: break-word !important;
+  }
+  /*banner*/
+  .banner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    padding: 0px 0px 40px 0px; 
+    box-sizing: border-box;
+    
+    /* Xóa sạch các lệnh background cũ vì giờ đã có ảnh thật */
+    height: auto !important; 
+    position: relative !important;
+  }
+
+  /* 2. CHỈNH ẢNH BANNER THẬT (.banner-1-icon) */
+  .banner-1-icon {
+    width: 100%; /* Bắt ảnh phình to bằng chiều ngang điện thoại */
+    height: auto !important; /* Tự động tính toán chiều cao cho khỏi méo */
+    display: block;
+    object-fit: contain; /* Hoặc cover nếu bạn muốn ảnh lấp đầy */
+  }
+  body, html, div[class^="about-us"], .frame-main {
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .frame-main {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* =========================================
+     2. KHỐI "KHỞI NGUỒN TỪ SỰ THẤU HIỂU"
+  ========================================= */
+  .rectangle-group {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 40px 20px !important;
+    box-sizing: border-box !important;
+    gap: 30px !important; 
+    background-color: #FFFFFF !important;
+    height: auto !important;
+    position: relative !important;
+  }
+
+  .rectangle-icon {
+    display: block !important;
+    width: 100% !important;
+    max-width: 300px !important; 
+    height: auto !important;
+    border-radius: 24px !important; 
+    object-fit: cover !important;
+    margin: 0 !important;
+  }
+
+  .khi-ngun-t-s-thu-hiu-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 24px !important; 
+    height: auto !important;
+    position: relative !important;
+  }
+
+  .khi-ngun-t {
+    font-size: 32px !important; 
+    color: #154C84 !important;
+    font-weight: 700 !important;
+    text-align: center !important; 
+    margin: 0 !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+  }
+
+  .tui-tc-khng {
+    font-size: 16px !important; 
+    color: #000000 !important;
+    line-height: 1.6 !important; 
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: justify !important; /* Căn đều 2 bên như Figma */
+    display: block !important;
+    height: auto !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+
+  /* =========================================
+     3. KHỐI "GIÁ TRỊ CHÚNG TÔI KIẾN TẠO"
+  ========================================= */
+  .value-proposition {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 40px 20px 60px 20px !important; /* Lề dưới to xíu cho thoáng */
+    box-sizing: border-box !important;
+    background-color: #F8F9FA !important; /* Nền xám nhạt */
+    height: auto !important;
+    position: relative !important;
+  }
+
+  .gi-tr-chng {
+    font-size: 32px !important; 
+    color: #154C84 !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin: 0 0 30px 0 !important; /* Đẩy mấy cái thẻ trắng xuống */
+    line-height: 1.3 !important;
+    width: 100% !important;
+  }
+
+  .value-components-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 30px !important; /* Khoảng cách giữa các thẻ trắng */
+    height: auto !important;
+    position: relative !important;
+  }
+
+  /* Từng thẻ trắng (Sứ mệnh, Chất lượng...) */
+  .value-components,
+  .value-components2,
+  .value-components3,
+  .value-details,
+  .badge-1-parent,
+  .giving-1-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 16px !important;
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+  }
+
+  /* Vỏ hộp màu trắng và bóng đổ */
+  .value-components,
+  .value-components2,
+  .value-components3 {
+    background-color: #FFFFFF !important;
+    border-radius: 16px !important; /* Bo góc 16px theo Figma */
+    padding: 45px 30px !important; /* Lề trong khá to theo hình bạn gửi */
+    box-sizing: border-box !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05) !important; /* Bóng đổ nhẹ nhàng */
+  }
+
+  /* Icon bên trong thẻ */
+  .badge-icons,
+  .badge-1-icon {
+    width: 60px !important; /* Icon khá to theo Figma */
+    height: auto !important;
+    object-fit: contain !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Tiêu đề nhỏ (Sứ mệnh, Chất lượng) */
+  .s-mnh {
+    font-size: 24px !important;
+    color: #154C84 !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  /* Đoạn văn mô tả */
+  .cung-cp-cc {
+    font-size: 16px !important;
+    color: #334155 !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+}

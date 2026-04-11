@@ -1,0 +1,740 @@
+.product-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+}
+.hamburger-menu {
+  display: none; 
+}
+.header-group,
+.header3 {
+  display: flex;
+  align-items: center;
+}
+.header-group {
+  flex: 1;
+  flex-direction: column;
+  gap: 47px;
+  max-width: 100%;
+}
+.header3 {
+  background-color: var(--color-white);
+  gap: var(--gap-159);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.logo-1-icon3 {
+  width: var(--width-256);
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frame-parent4 {
+  height: var(--height-42);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-38);
+}
+.navigation-items,
+.navigation-items-parent {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-40);
+}
+.navigation-items {
+  margin: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.trang-ch13,
+.trang-ch14,
+.trang-ch16 {
+  height: var(--height-22);
+  width: var(--width-88);
+}
+.trang-ch13 {
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch14,
+.trang-ch16,
+.trang-ch18 {
+  position: relative;
+  font-weight: 600;
+   display: inline-block;
+  text-decoration: none; 
+  cursor: pointer;
+  color: inherit;
+}
+.trang-ch16 {
+  width: var(--width-87);
+}
+.trang-ch17 {
+  height: var(--height-22);
+  width: var(--width-119);
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch18 {
+  height: var(--height-22);
+  width: var(--width-114);
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.vector-icon7,
+.vector3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+}
+.vector3 {
+  height: var(--height-25);
+  width: var(--width-19_8);
+  position: relative;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.t-vn-ngay-1900-9887-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10);
+  background-color: var(--color-olivedrab);
+  border-radius: var(--br-12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.t-vn-ngay-1900-9887-wrapper5:hover{
+  background-color: #FFC549; 
+  cursor: pointer;
+}
+.t-vn-ngay3 {
+  position: relative;
+  font-size: var(--fs-18);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.product-preview,
+.rectangle-parent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.product-preview {
+  height: 802px;
+  flex-direction: column;
+  padding: var(--padding-24) var(--padding-20);
+  box-sizing: border-box;
+  gap: 75px;
+}
+.rectangle-parent {
+  gap: 74px;
+  flex-shrink: 0;
+}
+.frame-inner {
+  width: 500px;
+  position: relative;
+  border-radius: var(--br-16);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.mednutri-bone-plus-60-hp-gi-parent,
+.product-info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24);
+}
+.product-info2 {
+  width: 485px;
+  padding: var(--padding-20) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-36);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.mednutri-bone-plus-60-hp-gi-parent {
+  align-self: stretch;
+}
+.mednutri-bone-plus {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.vn-hp-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-28);
+  color: var(--color-tomato);
+}
+.cng-thc-c,
+.hp-400g {
+  font-size: var(--fs-16);
+  color: var(--color-dimgray);
+}
+.cng-thc-c {
+  position: relative;
+  color: var(--color-darkslategray-100);
+}
+.khm-ph-ngay-wrapper3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12) var(--padding-24);
+  background-color: var(--color-steelblue);
+  width: var(--width-300);
+  height: var(--height-48);
+  border-radius: var(--br-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+.khm-ph-ngay-wrapper3:hover{
+  background-color: var(--color-olivedrab);
+  cursor: pointer;
+}
+.khm-ph-ngay6 {
+  position: relative;
+  font-size: var(--fs-20);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.product-description {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-35);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--fs-24);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.m-t-sn-phm-group {
+  width: 542px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.bc-qua-tui,
+.m-t-sn2 {
+  align-self: stretch;
+  position: relative;
+}
+.m-t-sn2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.bc-qua-tui {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-16);
+  color: var(--color-black);
+  text-align: left;
+}
+.thng-tin-chi-tit-sn-phm-group {
+  width: 544px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.sa-bt-m {
+  white-space: pre-wrap;
+}
+.footer-content2,
+.footer3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer3 {
+  align-self: stretch;
+  height: var(--height-400);
+  background-color: var(--color-steelblue);
+  padding: var(--padding-80) var(--padding-20);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer-content2 {
+  width: var(--width-1119);
+  height: var(--height-270);
+  gap: var(--gap-45);
+  flex-shrink: 0;
+}
+.footer-links2,
+.vinamilk-info {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-links2 {
+  align-self: stretch;
+  height: var(--height-203);
+  gap: var(--gap-113);
+}
+.vinamilk-info {
+  width: var(--width-300);
+  flex-direction: column;
+  gap: var(--gap-16);
+  font-size: var(--fs-14);
+}
+.logo-2-icon3 {
+  width: var(--width-241);
+  position: relative;
+  border-radius: var(--br-10);
+  max-height: 100%;
+  object-fit: cover;
+}
+.sn-phm-dinh3 {
+  align-self: stretch;
+  position: relative;
+}
+.khm-ph-group {
+  height: var(--height-162);
+  width: var(--width-187);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.khm-ph3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-18);
+}
+.social-media {
+  width: var(--width-106);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-18);
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.vector-icon8 {
+  height: var(--height-24);
+  width: var(--width-14_7);
+  position: relative;
+}
+.group-icon5,
+.group-icon6 {
+  height: var(--height-21_3);
+  width: var(--width-21_3);
+  position: relative;
+}
+.group-icon6 {
+  width: var(--width-26_7);
+}
+.bn-quyn-thuc3,
+.image-1-icon3 {
+  align-self: stretch;
+  position: relative;
+}
+.image-1-icon3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bn-quyn-thuc3 {
+  font-size: var(--fs-14);
+  text-align: center;
+}
+@media screen and (max-width: 1125px) {
+  .header3 {
+    gap: var(--gap-79);
+    width: var(--width-calc100-40);
+  }
+  .product-preview,
+  .rectangle-parent {
+    gap: var(--gap-37);
+  }
+  .product-description {
+    flex-wrap: wrap;
+  }
+  .m-t-sn-phm-group,
+  .thng-tin-chi-tit-sn-phm-group {
+    flex: 1;
+  }
+  .footer-content2,
+  .footer3 {
+    height: auto;
+  }
+  .footer-links2 {
+    height: auto;
+    gap: var(--gap-56);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navigation-items {
+    display: none;
+  }
+  .product-preview {
+    height: auto;
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    flex-wrap: wrap;
+  }
+  .frame-inner,
+  .product-info2 {
+    flex: 1;
+  }
+  .mednutri-bone-plus {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* 1. HEADER & NAVIGATION */
+  .header3 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important; 
+    padding: 16px 20px !important; 
+    width: 100% !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    z-index: 99999 !important; 
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  /* 2. Logo */
+  .logo-1-icon {
+    width: 180px !important; 
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 3. Nút Hamburger */
+  .hamburger-menu {
+    display: block !important;
+    cursor: pointer !important;
+  }
+
+  /* 4. KHUNG MENU XỔ XUỐNG DỌC (Đổi thành .frame-parent4) */
+  .frame-parent4 {
+    display: none !important; 
+  }
+
+  .frame-parent4.active {
+    display: flex !important; 
+    flex-direction: column !important;
+    position: absolute !important;
+    top: 100% !important; 
+    left: 0 !important;
+    width: 100% !important;
+    background-color: #ffffff !important; 
+    padding: 0 0 24px 0 !important; 
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08) !important; 
+    z-index: 99999 !important; 
+    height: auto !important; 
+    border-top: 1px solid #f4f6f8 !important; 
+  }
+
+  /* 5. DÀN CÁC NÚT TRONG MENU (Xử lý .navigation-items-parent và .navigation-items) */
+  .frame-parent4.active .navigation-items-parent,
+  .frame-parent4.active .navigation-items {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0 !important;
+  }
+
+  .frame-parent4.active .trang-ch13,
+  .frame-parent4.active .trang-ch17,
+  .frame-parent4.active a {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    height: auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* 6. LÀM ĐẸP CHỮ MENU */
+  .frame-parent4.active a {
+    padding: 18px 20px !important; 
+    font-size: 15px !important; 
+    font-weight: 600 !important;
+    color: #154C84 !important; 
+    text-decoration: none !important;
+    border-bottom: 1px solid #f4f6f8 !important; 
+    text-transform: uppercase !important; 
+    letter-spacing: 0.5px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Ẩn gạch chân mục cuối (Về chúng tôi) */
+  .frame-parent4.active .trang-ch17 a {
+    border-bottom: none !important;
+  }
+
+  /* 7. Ẩn icon túi xách (vector3) khi mở menu mobile */
+  .frame-parent4.active .vector3 {
+    display: none !important;
+  }
+
+  /* 8. NÚT HOTLINE (Đã chỉnh bo tròn 50px giống trang chủ) */
+  .frame-parent4.active .t-vn-ngay-1900-9887-frame {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    width: calc(100% - 40px) !important; 
+    margin: 15px 20px !important; 
+    padding: 14px 0 !important; 
+    background-color: #7CB749 !important; 
+    border-radius: 8px !important; /* Đã sửa thành bo tròn viên thuốc */
+    border: none !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+  }
+
+  .frame-parent4.active .t-vn-ngay3 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    text-transform: none !important;
+    position: relative !important;
+  }
+
+  /* 2. LAYOUT CHUNG */
+  html, body, .product-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important; 
+    box-sizing: border-box !important;
+  }
+
+  /* 3. KHỐI CHI TIẾT SẢN PHẨM (NỬA TRÊN) */
+  .product-preview {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    background-color: #ffffff !important;
+  }
+
+  .rectangle-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    gap: 24px !important;
+  }
+
+  /* Ảnh sản phẩm */
+  .frame-inner {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover !important;
+    border-radius: 16px !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .product-info2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    text-align: center !important;
+    gap: 24px !important;
+  }
+
+  .mednutri-bone-plus {
+    font-size: 22px !important;
+    color: #154C84 !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+  }
+
+  .vn-hp-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: baseline !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .vn-hp-container b {
+    font-size: 22px !important;
+    color: #E03C31 !important;
+  }
+
+  .cng-thc-c {
+    font-size: 15px !important;
+    color: #334155 !important;
+    text-align: left !important;
+    max-width: 320px !important;
+    line-height: 1.6 !important;
+  }
+
+  .khm-ph-ngay-wrapper3 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 48px !important;
+    background-color: #154C84 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+  }
+
+  /* 4. MÔ TẢ & CHI TIẾT (NỬA DƯỚI) */
+  .product-description {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    gap: 30px !important;
+  }
+
+  .m-t-sn-phm-group, .thng-tin-chi-tit-sn-phm-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+
+  .m-t-sn2 {
+    font-size: 18px !important;
+    color: #154C84 !important;
+    border-bottom: 2px solid #154C84 !important;
+    padding-bottom: 8px !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+
+  .bc-qua-tui {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+    color: #334155 !important;
+    word-break: break-word !important;
+  }
+
+  .bc-qua-tui b {
+    display: block !important;
+    margin-top: 10px !important;
+    color: #154C84 !important;
+  }
+
+  /* 5. FOOTER RESPONSIVE */
+  .footer3 {
+    padding: 40px 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-content2, .footer-links2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 40px !important;
+    width: 100% !important;
+  }
+
+  .vinamilk-info, .khm-ph-group, .social-media {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    gap: 16px !important;
+  }
+
+  .logo-2-icon3 {
+    width: 180px !important;
+    height: auto !important;
+  }
+
+  .sn-phm-dinh3 {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  .social-icons {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 20px !important;
+  }
+
+  .image-1-icon3 {
+    width: 120px !important;
+    height: auto !important;
+  }
+
+  .bn-quyn-thuc3 {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    border-top: 1px solid rgba(0,0,0,0.1) !important;
+    padding-top: 20px !important;
+    margin-top: 20px !important;
+  }
+}

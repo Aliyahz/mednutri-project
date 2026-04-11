@@ -1,0 +1,846 @@
+.header6,
+.product {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+.product {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  gap: 1px;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+  overflow-x: hidden;
+}
+.header6 {
+  background-color: var(--color-white);
+  gap: var(--gap-159);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.logo-1-icon6 {
+  width: var(--width-256);
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-parent6 {
+  height: var(--height-42);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-38);
+}
+.hamburger-menu {
+  display: none; 
+}
+.frame-parent7,
+.trang-ch-group {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-40);
+}
+.trang-ch-group {
+  margin: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.trang-ch31,
+.trang-ch32,
+.trang-ch34 {
+  height: var(--height-22);
+  width: var(--width-88);
+  
+}
+.trang-ch31 {
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch32,
+.trang-ch34,
+.trang-ch36 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none; 
+  cursor: pointer;
+  color: inherit;
+}
+.trang-ch34 {
+  width: var(--width-87);
+}
+.trang-ch35 {
+  height: var(--height-22);
+  width: var(--width-119);
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch36 {
+  height: var(--height-22);
+  width: var(--width-114);
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.vector-icon12,
+.vector6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+}
+.vector6 {
+  height: var(--height-25);
+  width: var(--width-19_8);
+  position: relative;
+}
+.vector-icon12 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.t-vn-ngay-1900-9887-wrapper4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10);
+  background-color: var(--color-olivedrab);
+  border-radius: var(--br-12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.t-vn-ngay-1900-9887-wrapper4:hover{
+  background-color: #FFC549;
+  cursor: pointer;
+}
+.t-vn-ngay6 {
+  position: relative;
+  font-size: var(--fs-18);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.cc-sn-phm-ca-chng-ti-parent,
+.products2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.products2 {
+  align-self: stretch;
+  height: 895px;
+  background-color: var(--color-whitesmoke-200);
+  justify-content: center;
+  padding: var(--padding-80) var(--padding-20);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--fs-40);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.cc-sn-phm-ca-chng-ti-parent {
+  width: 1124px;
+  gap: var(--gap-30);
+  flex-shrink: 0;
+}
+.cc-sn-phm {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frame-parent8 {
+  align-self: stretch;
+  height: 682px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-36);
+  max-width: 100%;
+}
+.category-item,
+.category-item-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.category-item-wrapper {
+  height: var(--height-720);
+  width: var(--width-350);
+  border-radius: var(--br-20);
+  background-color: var(--color-white);
+  padding: var(--padding-26) var(--padding-25);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--fs-32);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.category-item {
+  width: var(--width-300);
+  flex-direction: column;
+  padding: var(--padding-5) var(--padding-0);
+  gap: var(--gap-15);
+}
+.category-image-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.category-details {
+  align-self: stretch;
+  height: var(--height-283);
+  border-radius: var(--br-10);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-16) var(--padding-12);
+  box-sizing: border-box;
+  gap: var(--gap-70);
+}
+.mednutri-1807 {
+  width: var(--width-237);
+  height: var(--height-39);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.dng-sn-phm4,
+.mednutri-1808 {
+  position: relative;
+  display: inline-block;
+}
+.mednutri-1808 {
+  margin: 0;
+  height: var(--height-39);
+  width: var(--width-237);
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.dng-sn-phm4 {
+  align-self: stretch;
+  height: var(--height-100);
+  font-size: var(--fs-16);
+  color: var(--color-darkslategray-200);
+  text-align: justify;
+  flex-shrink: 0;
+  margin-top: 15px;
+}
+.khm-ph-ngay-wrapper4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12) var(--padding-24);
+  background-color: var(--color-steelblue);
+  border-radius: var(--br-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 0.3s ease;
+}
+.khm-ph-ngay-wrapper4:hover{
+  background-color: var(--color-olivedrab);
+  cursor: pointer;
+}
+.khm-ph-ngay7 {
+  position: relative;
+  font-size: var(--fs-20);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  text-decoration: none; 
+  cursor: pointer;
+}
+.frame-parent9,
+.mednutri-1809 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent9 {
+  height: var(--height-638);
+  width: var(--width-300);
+  flex-direction: column;
+  padding: var(--padding-5) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-15);
+}
+.mednutri-1809 {
+  width: var(--width-237);
+  height: var(--height-39);
+  position: relative;
+  isolation: isolate;
+  flex-shrink: 0;
+}
+.mednutri-18010 {
+  height: 105px;
+  width: 178px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 12.24%;
+  display: inline-block;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.lon-thic2 {
+  font-size: var(--fs-24);
+}
+.mednutri-18011 {
+  width: var(--width-237);
+  height: var(--height-39);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-5) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.mednutri-18012 {
+  height: 105px;
+  width: 227px;
+  position: relative;
+  display: inline-block;
+}
+.footer-container,
+.footer6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer6 {
+  align-self: stretch;
+  height: var(--height-400);
+  background-color: var(--color-steelblue);
+  padding: var(--padding-80) var(--padding-20);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer-container {
+  width: var(--width-1119);
+  height: var(--height-270);
+  gap: var(--gap-45);
+  flex-shrink: 0;
+}
+.contact-info-parent {
+  align-self: stretch;
+  height: var(--height-203);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-113);
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.contact-info {
+  width: var(--width-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-14);
+}
+.logo-2-icon6 {
+  width: var(--width-241);
+  position: relative;
+  border-radius: var(--br-10);
+  max-height: 100%;
+  object-fit: cover;
+}
+.sn-phm-dinh6 {
+  align-self: stretch;
+  position: relative;
+}
+.links-column {
+  height: var(--height-162);
+  width: var(--width-187);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.khm-ph6 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-18);
+}
+.kt-ni-parent2 {
+  width: var(--width-106);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-18);
+}
+.vector-container {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.vector-icon13 {
+  height: var(--height-24);
+  width: var(--width-14_7);
+  position: relative;
+}
+.group-icon11,
+.group-icon12 {
+  height: var(--height-21_3);
+  width: var(--width-21_3);
+  position: relative;
+}
+.group-icon12 {
+  width: var(--width-26_7);
+}
+@media screen and (max-width: 1125px) {
+  .header6 {
+    gap: var(--gap-79);
+    width: var(--width-calc100-40);
+  }
+  .products2 {
+    height: auto;
+  }
+  .frame-parent8 {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .footer-container,
+  .footer6 {
+    height: auto;
+  }
+  .contact-info-parent {
+    height: auto;
+    gap: var(--gap-56);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .trang-ch-group {
+    display: none;
+  }
+  .products2 {
+    padding-top: var(--padding-52);
+    padding-bottom: var(--padding-52);
+    box-sizing: border-box;
+  }
+  .cc-sn-phm {
+    font-size: var(--fs-32);
+  }
+  .frame-parent8 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(262px, 455px));
+  }
+}
+@media screen and (max-width: 768px){
+  .header6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 16px 20px; 
+    width: 100%;
+    box-sizing: border-box;
+    position: relative; 
+    z-index: 99999 !important; 
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  }
+
+  /* 2. Logo giữ nguyên */
+  .logo-1-icon {
+    width: 180px; 
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 3. Nút Hamburger giữ nguyên */
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* 4. KHUNG MENU XỔ XUỐNG: Đổi .frame-parent thành .frame-parent6 */
+  .frame-parent6 {
+    display: none; 
+  }
+
+  .frame-parent6.active {
+    display: flex !important; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #ffffff !important; 
+    flex-direction: column;
+    padding: 0 0 24px 0 !important; 
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08); 
+    z-index: 9999 !important; 
+    height: auto !important; 
+    border-top: 1px solid #f4f6f8; 
+  }
+
+  /* 5. DÀN CÁC NÚT: Cập nhật thành .frame-parent7 và .trang-ch-group */
+  .frame-parent6.active .frame-parent7,
+  .frame-parent6.active .trang-ch-group {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    gap: 0; 
+  }
+
+  .frame-parent6.active .frame-parent7,
+  .frame-parent6.active .trang-ch-group,
+  .frame-parent6.active .trang-ch31,
+  .frame-parent6.active .trang-ch35,
+  .frame-parent6.active a {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    transform: none !important;
+  }
+
+  /* 6. LÀM ĐẸP CHỮ MENU: Cập nhật thành .trang-ch31 và .trang-ch35 */
+  .frame-parent6.active .trang-ch31,
+  .frame-parent6.active .trang-ch35 {
+    display: block !important;
+    width: 100%;
+  }
+
+  .frame-parent6.active a {
+    display: block;
+    width: 100%;
+    text-align: center; 
+    padding: 18px 20px; 
+    font-size: 15px; 
+    font-weight: 600;
+    color: #154C84 !important; 
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f4f6f8; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+  }
+
+  .frame-parent6.active div:last-child a {
+    border-bottom: none;
+  }
+
+  /* 7. Ẩn icon túi xách: Cập nhật thành .vector6 */
+  .frame-parent6.active .vector6 {
+    display: none;
+  }
+
+  /* 8. LÀM ĐẸP NÚT HOTLINE: Cập nhật đuôi số 4 và số 6 */
+  .frame-parent6.active .t-vn-ngay-1900-9887-wrapper4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    width: calc(100% - 48px) !important; 
+    margin: 16px 24px 0 24px !important; 
+    padding: 14px 0 !important; 
+    box-sizing: border-box !important;
+    transform: none !important;
+    background-color: #7CB749 !important; 
+    border-radius: 8px !important; 
+    border: none !important;
+  }
+
+  .frame-parent6.active .t-vn-ngay6 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important; 
+  }
+
+
+  /* 1. Bao bọc Footer và phá khóa chiều cao */
+  .footer6 {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 60px 20px 40px 20px !important; 
+    width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 40px !important;
+  }
+
+  /* 2. Ép bẻ dọc 4 cột nội dung (Liên hệ, Khám phá, Hỗ trợ, Kết nối) */
+  .contact-info-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 40px !important;
+  }
+
+  /* 3. Từng nhóm nội dung nhỏ bên trong */
+  .contact-info,
+  .links-column,
+  .kt-ni-parent2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important; /* Ép chữ vô giữa */
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  /* 4. Reset chữ để tự rớt dòng (Chống đâm thủng màn hình) */
+  .sn-phm-dinh6, .khm-ph6 {
+    white-space: normal !important;
+    height: auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    word-wrap: break-word !important;
+    position: relative !important;
+  }
+
+  /* 5. Chỉnh Logo Mednutri */
+  .logo-2-icon6 {
+    width: 200px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* 6. Nhóm Mạng xã hội nằm ngang */
+  .vector-container {
+    display: flex !important;
+    flex-direction: row !important; /* Cứu các icon không bị rớt dọc */
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  /* 7. Logo Bộ Công Thương 
+     (Khóa mục tiêu cực chuẩn để không dính tới hình lon sữa) */
+  .kt-ni-parent2 .category-image-icon {
+    width: 120px !important;
+    height: auto !important;
+    margin-top: 10px !important;
+  }
+
+  /* 8. Dòng chữ Copyright cuối cùng 
+     (Khóa mục tiêu thẻ sn-phm-dinh6 cuối cùng nằm trong footer) */
+  .footer-container > .sn-phm-dinh6:last-child {
+    display: block !important;
+    margin-top: 20px !important;
+    padding-top: 20px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important; /* Kẻ vạch mờ */
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+  }
+  /**/
+  .products2 {
+    height: auto !important;
+    padding: 40px 20px !important;
+    box-sizing: border-box !important;
+    background-color: var(--color-whitesmoke-200) !important;
+  }
+
+  /* Thu gọn khối khổng lồ 1124px */
+  .cc-sn-phm-ca-chng-ti-parent {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Tiêu đề CÁC SẢN PHẨM CỦA CHÚNG TÔI */
+  .cc-sn-phm {
+    font-size: 28px !important; /* Hạ size xíu cho mobile */
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* 2. Ép 3 hộp sản phẩm xếp hàng DỌC */
+  .frame-parent8 {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 30px !important; /* Khoảng cách giữa các hộp sữa */
+  }
+
+  /* 3. Tẩy não mọi tọa độ, margin rác bên trong hộp */
+  .category-item-wrapper * {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    transform: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* 4. Vỏ hộp màu trắng chứa từng sản phẩm */
+  .category-item-wrapper, 
+  .category-item,
+  .frame-parent9 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    background-color: #FFFFFF !important;
+    border-radius: 20px !important; 
+    padding: 24px !important; 
+    box-sizing: border-box !important;
+    height: auto !important;
+    gap: 20px !important;
+  }
+  
+  /* Tạo bóng đổ cho thẻ bao ngoài cùng */
+  .category-item-wrapper {
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  /* Xóa padding rác sinh ra do cấu trúc HTML bị lồng nhau */
+  .category-item, .frame-parent9 {
+      padding: 0 !important;
+      box-shadow: none !important;
+      background: transparent !important;
+  }
+
+  /* 5. Ảnh sản phẩm: Ép ra giữa tuyệt đối */
+  .category-image-icon {
+    display: block !important;
+    width: 100% !important;
+    max-width: 180px !important; /* Khống chế ảnh không bị quá to */
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important; 
+  }
+
+  /* 6. Vùng chứa chữ và nút */
+  .category-details {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important; 
+    width: 100% !important;
+    height: auto !important;
+    gap: 15px !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  /* 7. Tên sản phẩm */
+  .mednutri-1807, .mednutri-1809, .mednutri-18011 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+  }
+
+  .mednutri-1808, .mednutri-18010, .mednutri-18012 {
+    font-size: 22px !important;
+    color: #154C84 !important; 
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+    line-height: 1.3 !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  /* Ép rớt dòng cho các chữ Canxi Pro / Bone Plus */
+  .mednutri-18010 span, .mednutri-18012 span {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .lon-thic2 { 
+     font-size: 16px !important;
+     font-weight: normal !important;
+     margin-top: 5px !important;
+  }
+
+  /* 8. Mô tả sản phẩm */
+  .dng-sn-phm4 {
+    font-size: 15px !important; 
+    color: #334155 !important; 
+    text-align: center !important; /* Ép chữ vô giữa */
+    width: 100% !important;
+    line-height: 1.5 !important;
+    margin: 0 !important; 
+    display: block !important;
+    height: auto !important;
+    white-space: normal !important;
+  }
+
+  /* 9. Nút "Xem chi tiết": Ép giãn 100% */
+  .khm-ph-ngay-wrapper4 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important; 
+    max-width: 100% !important;
+    height: 48px !important;
+    background-color: #154C84 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 10px 0 0 0 !important;
+    cursor: pointer !important;
+  }
+
+  .khm-ph-ngay-wrapper4 a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+

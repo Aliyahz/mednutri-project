@@ -1,0 +1,880 @@
+.header7,
+.product-1 {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+.product-1 {
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 47px; 
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+  overflow-x: hidden;
+  position: relative;
+}
+.header7 {
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  align-items: center;             /* Căn giữa theo chiều dọc */
+  justify-content: center;  /* CRITICAL: Đẩy Logo sang mép trái, Menu sang mép phải */
+  padding: 16px 40px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.header7 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo-1-icon7 {
+  width: var(--width-256, 256px);
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+}
+.frame-parent11 {
+  height: var(--height-42);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-38);
+}
+.hamburger-menu {
+  display: none; 
+}
+.home-button,
+.home-button-parent {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-40);
+}
+.home-button {
+  margin: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.trang-ch37,
+.trang-ch38,
+.trang-ch40 {
+  height: var(--height-22);
+  width: var(--width-88);
+}
+.trang-ch37 {
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch38,
+.trang-ch40,
+.trang-ch42 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none; 
+  cursor: pointer;
+  color: inherit;
+}
+.trang-ch40 {
+  width: var(--width-87);
+  cursor: pointer;
+}
+.trang-ch41 {
+  height: var(--height-22);
+  width: var(--width-119);
+  display: flex;
+  align-items: flex-start;
+}
+.trang-ch42 {
+  height: var(--height-22);
+  width: var(--width-114);
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+.vector-icon14,
+.vector7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+}
+.vector7 {
+  height: var(--height-25);
+  width: var(--width-19_8);
+  position: relative;
+}
+.vector-icon14 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.t-vn-ngay-1900-9887-wrapper5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10);
+  background-color: var(--color-olivedrab);
+  border-radius: var(--br-12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.t-vn-ngay-1900-9887-wrapper5:hover{
+  background-color: #FFC549; 
+  cursor: pointer;
+}
+.t-vn-ngay7 {
+  position: relative;
+  font-size: var(--fs-18);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.frame-parent12,
+.rectangle-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.frame-parent12 {
+  width: 1161px;
+  height: 802px;
+  flex-direction: column;
+  padding: var(--padding-24) var(--padding-20);
+  box-sizing: border-box;
+  gap: var(--gap-80);
+}
+.rectangle-container {
+  gap: 74px;
+  flex-shrink: 0;
+}
+.frame-child3 {
+  width: 500px;
+  position: relative;
+  border-radius: var(--br-16);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.product-details2,
+.product-info3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24);
+}
+.product-details2 {
+  width: 485px;
+  padding: var(--padding-20) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-36);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.product-info3 {
+  align-self: stretch;
+}
+.mednutri-180-dinh,
+.vn-1-container {
+  align-self: stretch;
+  position: relative;
+}
+.vn-1-container {
+  font-size: var(--fs-28);
+  color: var(--color-tomato);
+}
+.lc-4-hp,
+.tng-cng-h {
+  font-size: var(--fs-16);
+  color: var(--color-dimgray);
+}
+.tng-cng-h {
+  position: relative;
+  color: var(--color-darkslategray-100);
+}
+.khm-ph-ngay-wrapper7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12) var(--padding-24);
+  background-color: var(--color-steelblue);
+  width: var(--width-300);
+  height: var(--height-48);
+  border-radius: var(--br-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+.khm-ph-ngay-wrapper7:hover{
+  background-color: var(--color-olivedrab);
+  cursor: pointer;
+}
+.khm-ph-ngay10 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  position: relative;
+  font-size: var(--fs-20);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.description-details-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-35);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--fs-24);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}
+.description-details {
+  width: 542px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-40);
+  min-width: 544px;
+  max-width: 100%;
+}
+.m-t-sn3,
+.mednutri-l-dng {
+  align-self: stretch;
+  position: relative;
+}
+.m-t-sn3 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.mednutri-l-dng {
+  font-size: var(--fs-16);
+  color: var(--color-black);
+  text-align: left;
+}
+.description-details2 {
+  width: 544px;
+  gap: var(--gap-40);
+  min-width: 544px;
+  max-width: 100%;
+}
+.description-details2,
+.footer-content5,
+.footer7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer7 {
+  align-self: stretch;
+  height: var(--height-400);
+  background-color: var(--color-steelblue);
+  padding: var(--padding-80) var(--padding-20);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer-content5 {
+  width: var(--width-1119);
+  height: var(--height-270);
+  gap: var(--gap-45);
+  flex-shrink: 0;
+}
+.vinamilk-info-parent {
+  align-self: stretch;
+  height: var(--height-203);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-113);
+}
+.vinamilk-info2 {
+  width: var(--width-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-14);
+}
+.logo-2-icon7 {
+  width: var(--width-241);
+  position: relative;
+  border-radius: var(--br-10);
+  max-height: 100%;
+  object-fit: cover;
+}
+.sn-phm-dinh7 {
+  align-self: stretch;
+  position: relative;
+}
+.explore-support {
+  height: var(--height-162);
+  width: var(--width-187);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.khm-ph7 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-18);
+}
+.kt-ni-parent3 {
+  width: var(--width-106);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-18);
+}
+.vector-parent2 {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.group-icon13,
+.group-icon14,
+.vector-icon15 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-24);
+  width: var(--width-14_7);
+  position: relative;
+}
+.group-icon13,
+.group-icon14 {
+  height: var(--height-21_3);
+  width: var(--width-21_3);
+}
+.group-icon14 {
+  width: var(--width-26_7);
+}
+.bn-quyn-thuc7,
+.image-1-icon7 {
+  align-self: stretch;
+  position: relative;
+}
+.image-1-icon7 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bn-quyn-thuc7 {
+  font-size: var(--fs-14);
+  text-align: center;
+}
+@media screen and (max-width: 1125px) {
+  .header7 {
+    gap: var(--gap-79);
+    width: var(--width-calc100-40);
+  }
+  .frame-parent12 {
+    gap: var(--gap-40);
+  }
+  .rectangle-container {
+    gap: var(--gap-37);
+  }
+  .description-details-parent {
+    flex-wrap: wrap;
+  }
+  .description-details,
+  .description-details2 {
+    flex: 1;
+  }
+  .footer-content5,
+  .footer7 {
+    height: auto;
+  }
+  .vinamilk-info-parent {
+    height: auto;
+    gap: var(--gap-56);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .home-button {
+    display: none;
+  }
+  .frame-parent12 {
+    height: auto;
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .rectangle-container {
+    flex-wrap: wrap;
+  }
+  .frame-child3,
+  .product-details2 {
+    flex: 1;
+  }
+  .mednutri-180-dinh {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 768px){
+  .header7 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important; 
+    padding: 16px 20px !important; 
+    width: 100% !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    z-index: 99999 !important; 
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .logo-1-icon { width: 160px !important; height: auto !important; }
+  .hamburger-menu { display: block !important; cursor: pointer !important; }
+
+  /* KHUNG MENU XỔ XUỐNG DỌC */
+  .frame-parent11 {
+    display: none !important; 
+  }
+
+  .frame-parent11.active {
+    display: flex !important; 
+    position: absolute !important;
+    top: 100% !important; 
+    left: 0 !important;
+    width: 100% !important;
+    background-color: #ffffff !important; 
+    flex-direction: column !important; /* ĐÂY LÀ CHỖ LÀM NÓ THÀNH HÀNG DỌC */
+    padding: 0 0 24px 0 !important; 
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08) !important; 
+    z-index: 9999 !important; 
+    height: auto !important; 
+    border-top: 1px solid #f4f6f8 !important; 
+  }
+
+  /* DÀN CÁC NÚT TRONG MENU */
+  .frame-parent11.active .home-button-parent,
+  .frame-parent11.active .home-button {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0 !important;
+  }
+
+  .frame-parent11.active .home-button-parent,
+  .frame-parent11.active .home-button,
+  .frame-parent11.active .trang-ch37,
+  .frame-parent11.active .trang-ch41,
+  .frame-parent11.active a {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    height: auto !important;
+  }
+
+  .frame-parent11.active a {
+    display: block !important;
+    text-align: center !important; 
+    padding: 18px 20px !important; 
+    font-size: 15px !important; 
+    font-weight: 600 !important;
+    color: #154C84 !important; 
+    text-decoration: none !important;
+    border-bottom: 1px solid #f4f6f8 !important; 
+    text-transform: uppercase !important; 
+  }
+
+  .frame-parent11.active .vector7 { display: none !important; }
+
+  /* NÚT HOTLINE MOBILE */
+  .frame-parent11.active .t-vn-ngay-1900-9887-wrapper5 {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    width: calc(100% - 48px) !important; 
+    margin: 16px 24px 0 24px !important; 
+    padding: 14px 0 !important; 
+    background-color: #7CB749 !important; 
+    border-radius: 50px !important; 
+    border: none !important;
+  }
+
+  .frame-parent11.active .t-vn-ngay7 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important; 
+  }
+  .frame-parent11.active {
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #ffffff !important;
+    position: absolute !important;
+    width: 100% !important;
+    padding-bottom: 20px !important;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+    z-index: 99999 !important;
+    height: auto !important; /* Mở khóa chiều cao để bọc hết nút Hotline */
+  }
+
+  /* Ép các chữ rớt về mặt đất, không cho bay lơ lửng */
+  .frame-parent11.active .home-button,
+  .frame-parent11.active .trang-ch37,
+  .frame-parent11.active .trang-ch41,
+  .frame-parent11.active a {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* Chỉnh lại nút Hotline cho giống trang Index */
+  .frame-parent11.active .t-vn-ngay-1900-9887-wrapper5 {
+    background-color: #7CB749 !important;
+    border-radius: 8px !important;
+    width: calc(100% - 40px) !important;
+    margin: 15px 20px !important;
+    position: relative !important;
+  }
+  /**/
+  .footer7 {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 60px 20px 40px 20px !important; 
+    width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+    background-color: var(--color-steelblue) !important; /* Màu nền xanh */
+  }
+
+  .footer-content5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 40px !important;
+  }
+
+  /* 2. Ép bẻ dọc khối chứa 4 cột nội dung */
+  .vinamilk-info-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 40px !important;
+  }
+
+  /* 3. Từng nhóm nội dung nhỏ (Liên hệ, Khám phá, Hỗ trợ, Kết nối) */
+  .vinamilk-info2,
+  .explore-support,
+  .kt-ni-parent3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important; /* Ép toàn bộ chữ vô giữa */
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  /* 4. Reset chữ để tự rớt dòng, không đâm thủng màn hình */
+  .sn-phm-dinh7, .khm-ph7, .bn-quyn-thuc7 {
+    white-space: normal !important;
+    height: auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    word-wrap: break-word !important;
+    position: relative !important;
+  }
+
+  /* 5. Chỉnh Logo Mednutri trắng */
+  .logo-2-icon7 {
+    width: 200px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+    object-fit: contain !important;
+  }
+
+  /* 6. Nhóm Mạng xã hội nằm ngang */
+  .vector-parent2 {
+    display: flex !important;
+    flex-direction: row !important; /* Cứu các icon không bị rớt dọc */
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+  }
+
+  /* Khống chế kích thước đồng đều cho 3 icon MXH */
+  .vector-icon15,
+  .group-icon13,
+  .group-icon14 {
+    height: 32px !important; /* Chốt cứng chiều cao để 3 icon bằng nhau */
+    width: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* 7. Logo Bộ Công Thương (Đã có class riêng rất an toàn) */
+  .image-1-icon7 {
+    width: 130px !important;
+    height: auto !important;
+    margin-top: 15px !important;
+    object-fit: contain !important;
+  }
+
+  /* 8. Dòng chữ Copyright cuối cùng */
+  .bn-quyn-thuc7 {
+    display: block !important;
+    margin-top: 20px !important;
+    padding-top: 20px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important; /* Kẻ vạch mờ cực sang */
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    opacity: 0.8 !important; /* Cho chữ mờ đi một chút cho chuẩn style Footer */
+  }
+  html, body, .product-1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important; /* CRITICAL: Mở khóa chiều cao cho cuộn thoải mái */
+    min-height: 100vh !important;
+    overflow-x: hidden !important; 
+    overflow-y: auto !important; /* Cho phép thanh cuộn dọc hoạt động */
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* =========================================
+     2. ĐƯA KHỐI SẢN PHẨM VỀ CHÍNH GIỮA VÀ MỞ RỘNG
+  ========================================= */
+  .frame-parent12 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; 
+    width: 100% !important;
+    height: auto !important; /* Phá vỡ khóa chiều cao */
+    padding: 0 0 40px 0 !important; /* Chỉ lề dưới, không lề trái phải ở đây */
+    margin: 0 auto !important; 
+    box-sizing: border-box !important;
+    background-color: var(--color-white) !important;
+  }
+
+  /* Khối nửa trên: Ảnh + Giá + Nút mua */
+  .rectangle-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px !important; /* Ép lề trái phải an toàn */
+    box-sizing: border-box !important;
+    gap: 24px !important;
+  }
+
+  /* Ảnh sản phẩm */
+  .frame-child3 {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover !important;
+    border-radius: 16px !important;
+    display: block !important;
+    margin: 0 auto !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  /* Khối thông tin: Tên, Giá, Đặc điểm */
+  .product-details2,
+  .product-info3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important; /* Mở khóa */
+    text-align: center !important;
+    gap: 16px !important;
+  }
+
+  /* Tên sản phẩm chính */
+  .mednutri-180-dinh {
+    font-size: 24px !important; /* Bóp nhỏ lại xíu cho khỏi rớt dòng xấu */
+    color: #154C84 !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    display: block !important;
+    width: 100% !important; 
+    white-space: normal !important; /* Ép tự do rớt dòng */
+  }
+
+  /* Khối chứa Giá tiền */
+  .vn-1-container {
+    display: flex !important;
+    flex-direction: row !important; 
+    align-items: baseline !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important; /* Nếu dài quá thì tự rớt dòng, không đâm thủng màn hình */
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .vn-1-container b {
+    font-size: 22px !important;
+    color: #E03C31 !important; 
+  }
+
+  .lc-4-hp {
+    font-size: 15px !important;
+    color: #666666 !important; 
+    font-weight: normal !important;
+  }
+
+  /* Gạch đầu dòng tính năng */
+  .tng-cng-h {
+    font-size: 15px !important;
+    color: #334155 !important;
+    text-align: left !important; 
+    width: 100% !important;
+    max-width: 320px !important; 
+    line-height: 1.6 !important;
+    margin: 0 auto !important; 
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+
+  /* Nút Thêm vào giỏ hàng */
+  .khm-ph-ngay-wrapper7 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 320px !important; 
+    height: 48px !important;
+    background-color: #154C84 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    cursor: pointer !important;
+    margin: 10px auto 0 auto !important; 
+  }
+
+  .khm-ph-ngay10 {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+  }
+
+  /* =========================================
+     3. Khối nửa dưới: MÔ TẢ & THÔNG TIN 
+  ========================================= */
+  .description-details-parent {
+      width: 100% !important;
+      max-width: 100vw !important;
+      min-width: 0 !important; /* Chìa khóa vàng để Flexbox chịu co lại */
+      padding-left: 15px !important; /* Thêm lề cho khỏi sát mép */
+      padding-right: 15px !important;
+      box-sizing: border-box !important;
+      overflow-x: hidden !important;
+  }
+  .description-details-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100vw !important; /* Chốt chặn cuối cùng: Không bao giờ rộng hơn màn hình */
+    height: auto !important; 
+    padding: 0 20px 40px 20px !important;
+    box-sizing: border-box !important;
+    gap: 30px !important;
+    overflow-x: hidden !important;
+  }
+
+  .description-details,
+  .description-details2 {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 100% !important;
+    height: auto !important; /* Mở khóa */
+    min-width: 0 !important;
+    align-items: justify !important; 
+    gap: 16px !important;
+    box-sizing: border-box !important;
+  }
+  
+
+  /* Tiêu đề (MÔ TẢ SẢN PHẨM...) */
+  .m-t-sn3 {
+    font-size: 18px !important;
+    color: #154C84 !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+    text-align: left !important;
+    border-bottom: 2px solid #154C84 !important; 
+    padding-bottom: 8px !important;
+    width: 100% !important; 
+  }
+
+  /* Nội dung đoạn văn (Giải phóng toàn bộ rào cản chữ) */
+  .mednutri-l-dng {
+    font-size: 15px !important;
+    color: #334155 !important;
+    line-height: 1.6 !important;
+    text-align: left !important; 
+    max-width: 100% !important;
+    height: auto !important; /* CHỐNG CẮT CHỮ */
+    display: block !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; /* Chuẩn mới, an toàn hơn word-wrap */
+  word-break: break-word !important; /* Bẻ gãy cả những từ dính liền quá dài */
+  box-sizing: border-box !important;  
+  }
+  /* Bôi đậm các mục (Thành phần, HDSD) */
+  .mednutri-l-dng b {
+    display: block !important;
+    margin-top: 15px !important; /* Cho khoảng cách rộng ra cho dễ đọc */
+    color: #154C84 !important;
+  }
+} 
