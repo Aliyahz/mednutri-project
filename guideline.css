@@ -80,7 +80,7 @@
 /* Tối ưu hiển thị cho điện thoại (Mobile) */
 @media screen and (max-width: 768px) {
     .guideline-wrapper {
-        height: 80vh;
+        height: 65vh;
     }
     .guideline-wrapper .page img {
         max-width: 95%;
