@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./guideline.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="page">
+        <header class="header">
+          <a href="index.html">
+          <img
+            class="logo-1-icon"
+            loading="lazy"
+            alt="Trang chủ MEDNUTRI"
+            src="./public/logo-1@2x.png"
+          />
+          </a>
+          <div class="frame-parent">
+            <div class="frame-group">
+              <nav class="trang-ch-parent">
+                <div class="trang-ch">
+                  <a href="index.html" class="trang-ch2">Trang chủ</a>
+                </div>
+                <div class="trang-ch">
+                  <a href="product.html" class="trang-ch4">Sản phẩm</a>
+                </div>
+                <div class="trang-ch5">
+                  <a href="about-us.html" class="trang-ch6">Về chúng tôi</a>
+                </div>
+                <div class="trang-ch5">
+                  <a href="guideline.html" class="trang-ch6">Brand Guideline</a>
+                </div>
+              </nav>
+              <div class="vector">
+                <img class="vector-icon" alt="" src="./public/Vector.svg" />
+              </div>
+            </div>
+            <button class="t-vn-ngay-1900-9887-wrapper">
+              <div class="t-vn-ngay">Tư vấn ngay: 1900 XXXX</div>
+            </button>
+          </div>
+          <div class="hamburger-menu">
+            <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7H26M4 14H26M4 21H26" stroke="#154C84" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </header>
+        <div class="nav-capsule">
+        <button onclick="scrollPage(-1)">▲</button>
+        <div class="counter" id="pageIndicator">Trang 1 / 50</div>
+        <button onclick="scrollPage(1)">▼</button>
+    </div>
+
+    <!-- Khung chứa ảnh sẽ được JS tự động đổ dữ liệu vào -->
+    <div class="guideline-wrapper" id="wrapper">
+        <!-- JS sẽ chèn 50 ảnh vào đây -->
+    </div>
+        <section class="footer">
+          <div class="footer-content">
+            <div class="footer-info-parent">
+              <div class="footer-info">
+                <img
+                  class="logo-2-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/logo-2@2x.png"
+                />
+
+                <div class="sn-phm-dinh">
+                  Sản phẩm dinh dưỡng y học chuyên biệt từ Vinamilk, đồng hành
+                  chăm sóc sức khỏe toàn diện cho người cao tuổi Việt Nam.
+                </div>
+                <div class="sn-phm-dinh">Hotline: 1800 xxxx (Miễn phí)</div>
+                <div class="sn-phm-dinh">Email: cskh@medinutri.vn</div>
+              </div>
+              <div class="footer-link-columns">
+                <b class="sn-phm-dinh">KHÁM PHÁ</b>
+                <div class="sn-phm-dinh">Câu chuyện thương hiệu</div>
+                <div class="sn-phm-dinh">Đội ngũ chuyên gia</div>
+                <div class="sn-phm-dinh">Sản phẩm</div>
+                <div class="sn-phm-dinh">Tin tức y khoa</div>
+              </div>
+              <div class="footer-link-columns">
+                <b class="sn-phm-dinh">HỖ TRỢ</b>
+                <div class="sn-phm-dinh">Chính sách đổi trả</div>
+                <div class="sn-phm-dinh">Chính sách bảo mật</div>
+                <div class="sn-phm-dinh">Hướng dẫn mua hàng</div>
+                <div class="sn-phm-dinh">Điều khoản sử dụng</div>
+              </div>
+              <div class="kt-ni-parent">
+                <b class="sn-phm-dinh">KẾT NỐI</b>
+                <div class="vector-parent">
+                  <img class="vector-icon4" alt="" src="./public/Vector3.svg" />
+
+                  <img class="group-icon" alt="" src="./public/Group.svg" />
+
+                  <img class="group-icon2" alt="" src="./public/Group1.svg" />
+                </div>
+                <img
+                  class="product-card-rows-child"
+                  loading="lazy"
+                  alt=""
+                  src="./public/image-1@2x.png"
+                />
+              </div>
+            </div>
+            <div class="bn-quyn-thuc">
+              © 2026 Bản quyền thuộc về Nhóm dự án MEDNUTRI. Thiết kế dành cho
+              mục đích học tập.
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script>
+  // Chờ cho HTML load xong mới chạy JS
+      document.addEventListener("DOMContentLoaded", function() {
+        
+        // Lấy phần tử nút hamburger và khung chứa menu
+        const hamburgerBtn = document.querySelector(".hamburger-menu");
+        const navMenu = document.querySelector(".frame-parent");
+
+        // Lắng nghe sự kiện click vào nút hamburger
+        hamburgerBtn.addEventListener("click", function() {
+          // Thêm hoặc gỡ bỏ class 'active' cho phần menu
+          navMenu.classList.toggle("active");
+        });
+
+      });
+
+        const totalPages = 50; // Khai báo tổng số trang là 50
+        const wrapper = document.getElementById('wrapper');
+        const indicator = document.getElementById('pageIndicator');
+
+        // 1. VÒNG LẶP TỰ ĐỘNG TẠO 50 TRANG
+        for (let i = 1; i <= totalPages; i++) {
+            const pageDiv = document.createElement('div');
+            pageDiv.className = 'page';
+            pageDiv.id = `p${i}`;
+
+            // loading="lazy" là chìa khóa để web không bị sập khi tải 50 ảnh
+            pageDiv.innerHTML = `<img src="./public/guideline/page-${i}.webp" alt="Mednutri Guideline Trang ${i}" loading="lazy">`;
+            wrapper.appendChild(pageDiv);
+        }
+
+        // 2. TÍNH NĂNG NHẬN DIỆN TRANG ĐANG XEM (INTERSECTION OBSERVER)
+        // Khi bạn cuộn, nó sẽ tự động cập nhật con số "Trang X / 50"
+        const observerOptions = {
+            root: wrapper,
+            threshold: 0.5 // Ảnh nào chiếm 50% màn hình sẽ được coi là trang hiện tại
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Lấy số từ ID (ví dụ: p15 -> 15)
+                    const currentPage = entry.target.id.replace('p', '');
+                    indicator.innerText = `Trang ${currentPage} / ${totalPages}`;
+                }
+            });
+        }, observerOptions);
+
+        // Theo dõi toàn bộ 50 trang
+        document.querySelectorAll('.page').forEach(page => {
+            observer.observe(page);
+        });
+
+        // 3. XỬ LÝ NÚT BẤM LÊN/XUỐNG
+        function scrollPage(direction) {
+            // Tìm số trang hiện tại từ text hiển thị
+            const currentText = indicator.innerText; 
+            let currentPage = parseInt(currentText.split(' ')[1]); 
+            let targetPage = currentPage + direction;
+
+            if (targetPage >= 1 && targetPage <= totalPages) {
+                const targetElement = document.getElementById(`p${targetPage}`);
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+.guideline-wrapper {
+    height: 85vh; 
+    width: 100%;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    background-color: #1a1a1a; /* Nền tối để làm nổi bật thiết kế */
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Khung bọc từng trang lẻ */
+.page {
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center; /* Hít vào giữa màn hình khi cuộn */
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Định dạng trang A4 */
+.guideline-wrapper .page img {
+    max-height: 100%;
+    max-width: 90%;
+    object-fit: contain;
+    background-color: #ffffff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    border-radius: 4px;
+}
+/* Thanh điều hướng hình viên thuốc (Capsule) */
+.nav-capsule {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-fillter: blur(8px);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    z-index: 1000; /* Luôn nổi lên trên cùng */
+}
+
+/* Nút bấm chuyển trang */
+.nav-capsule button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.nav-capsule button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Bộ đếm số trang */
+.nav-capsule .counter {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    min-width: 110px;
+    text-align: center;
+}
+
+/* Tối ưu hiển thị cho điện thoại (Mobile) */
+@media screen and (max-width: 768px) {
+    .guideline-wrapper {
+        height: 80vh;
+    }
+    .guideline-wrapper .page img {
+        max-width: 95%;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    .nav-capsule {
+        bottom: 30px;
+        padding: 8px 20px;
+        gap: 15px;
+    }
+}
