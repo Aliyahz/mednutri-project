@@ -81,6 +81,7 @@
 @media screen and (max-width: 768px) {
     .guideline-wrapper {
         height: 65vh;
+        padding-top: 0;
     }
     .guideline-wrapper .page img {
         max-width: 95%;
