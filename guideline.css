@@ -32,7 +32,7 @@
 }
 /* Thanh điều hướng hình viên thuốc (Capsule) */
 .nav-capsule {
-    position: fixed;
+    position: absolute;
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
@@ -46,6 +46,10 @@
     border-radius: 50px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
     z-index: 1000; /* Luôn nổi lên trên cùng */
+}
+.guideline-section {
+    position: relative;
+    width: 100%;
 }
 
 /* Nút bấm chuyển trang */
