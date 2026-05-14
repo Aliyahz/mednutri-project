@@ -4,7 +4,7 @@
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-    background-color: #1a1a1a; /* Nền tối để làm nổi bật thiết kế */
+    background-color: #1a1a1a; 
     margin: 0;
     padding: 20px 0;
 }
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: center; /* Hít vào giữa màn hình khi cuộn */
+    scroll-snap-align: center; 
     position: relative;
     padding: 20px 0;
 }
